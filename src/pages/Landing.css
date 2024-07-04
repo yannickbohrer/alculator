@@ -1,0 +1,23 @@
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 20px;
+    font-size: 1.5rem;
+}
+
+h1, h2, h3, h4 {
+    font-weight: bold;
+    color: var(--color-primary);
+}
+
+.menu-item {
+    width: 100% !important;
+    display: flex !important;
+    flex-direction: row !important;
+    justify-content: space-between !important;
+    align-items: center !important;
+    font-weight: bold !important;
+}
+
